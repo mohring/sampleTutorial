@@ -12,7 +12,7 @@ class InvalidKindError(Exception):
 
 def get_random_ingredients(kind=None):
     """
-    Return a list of random ingredients as strings. And never forget :math:`a^2+b^2=c^2`
+    Return a list of random ingredients as strings. And never forget :math:"a^2+b^2=c^2"
     
     :param kind: Optional "kind" of ingredients.
     :type kind: list[str] or None
