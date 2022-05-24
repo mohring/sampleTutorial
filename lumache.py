@@ -14,8 +14,7 @@ def get_random_ingredients(kind=None):
     """
     Return a list of random ingredients as strings.
     And a random formula
-    .. math::
-        \int\limits_0^{\pi} sin(x) \\, dx = 2 
+    :math: 'a^2+b^2=c^2'
     :param kind: Optional "kind" of ingredients.
     :type kind: list[str] or None
     :raise lumache.InvalidKindError: If the kind is invalid.
