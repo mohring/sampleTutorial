@@ -12,7 +12,7 @@ class InvalidKindError(Exception):
 
 def get_random_ingredients(kind=None):
     """
-    Return a list of random ingredients as strings. And never forget Pythagoras:
+    Return a list of random ingredients as strings. And never forget Pythagoras.
     
     .. math:: a^2+b^2=c^2
     
